@@ -37,7 +37,8 @@ P1 = Mix_fft(1:Nr/2+1);
 - Implement the 2D CFAR process on the output of 2D FFT operation, i.e the Range Doppler Map (line 202:222)
 Output of 2D FFT
 <br>
-![Image of range/doppler](https://github.com/AnastaciaVolkova/SFND_Radar_Target_Generation_and_Detection/blob/master/images/range_doppler.jpg)
+
+![Image of range-doppler](https://github.com/AnastaciaVolkova/SFND_Radar_Target_Generation_and_Detection/blob/master/images/range_doppler.jpg)
 ### CFAR implementation steps:
 - Choose parameters for CFAR:
   - Choose the size of training band in range dimension (Tr=8)
@@ -71,6 +72,7 @@ Output of 2D FFT
     ```
 - Threshold peak coincides with target relative speed 16.4 m/s and distance to target 86 m.
 <br>
+
 ![Image of threshold](https://github.com/AnastaciaVolkova/SFND_Radar_Target_Generation_and_Detection/blob/master/images/range_doppler_threshold.jpg)
 
 
